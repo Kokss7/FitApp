@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div>
-      <div className="container-xxl py-5">
+      <div className="container-xxl py-5 bg-white">
         <div className="container py-5 px-lg-5">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">

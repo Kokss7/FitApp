@@ -9,7 +9,7 @@
     background: linear-gradient(
         to bottom right,
         var(--primary),
-        var(--secondary)
+        #ffffff
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -19,7 +19,10 @@
     margin-top: 10px;
 }
 
-.navbar-expand-lg {
-    flex-wrap: nowrap;
-    justify-content: space-between;
+.navbar-about {
+  background-color:#6060ed ; /* Dark background color for about page */
+}
+.navbar-about .navbar-nav .nav-link {
+    padding: 20px 0 !important;
+    color: #fff; /* Link color for the about page */
 }

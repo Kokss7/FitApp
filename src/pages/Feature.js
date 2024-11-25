@@ -1,4 +1,6 @@
 import OwlCarousel from "react-owl-carousel";
+import "../styles/Feature.css";
+import { Link } from "react-router-dom";
 
 const carouselOptions = {
     items: 1, // Number of items to display
@@ -35,10 +37,13 @@ const Feature = () => {
                             animationName: "fadeInUp",
                         }}
                     >
-                        <h5 className="text-primary-gradient fw-medium">
+                        <h5
+                            className="text-primary-gradient fw-medium"
+                            style={{ marginTop: "30px" }}
+                        >
                             App Features
                         </h5>
-                        <h1 className="mb-5">Awesome Features</h1>
+                        <h1 className="mb-5">FitApp Features</h1>
                     </div>
                     <div className="row g-4">
                         <div
@@ -59,9 +64,10 @@ const Feature = () => {
                                 </div>
                                 <h5 className="mb-3">High Resolution</h5>
                                 <p className="m-0">
-                                    Erat ipsum justo amet duo et elitr dolor,
-                                    est duo duo eos lorem sed diam stet diam sed
-                                    stet lorem.
+                                    Enjoy stunning visuals and clear graphics
+                                    that enhance your workout experience, making
+                                    it easier to track your progress and stay
+                                    motivated.
                                 </p>
                             </div>
                         </div>
@@ -83,9 +89,10 @@ const Feature = () => {
                                 </div>
                                 <h5 className="mb-3">Retina Ready</h5>
                                 <p className="m-0">
-                                    Erat ipsum justo amet duo et elitr dolor,
-                                    est duo duo eos lorem sed diam stet diam sed
-                                    stet lorem.
+                                    Our app is optimized for all devices,
+                                    ensuring that every detail looks sharp and
+                                    vibrant, whether you're on a phone or
+                                    tablet.
                                 </p>
                             </div>
                         </div>
@@ -107,9 +114,10 @@ const Feature = () => {
                                 </div>
                                 <h5 className="mb-3">Editable Data</h5>
                                 <p className="m-0">
-                                    Erat ipsum justo amet duo et elitr dolor,
-                                    est duo duo eos lorem sed diam stet diam sed
-                                    stet lorem.
+                                    Easily customize and update your fitness
+                                    goals and personal information, allowing for
+                                    a personalized approach to your health
+                                    journey.
                                 </p>
                             </div>
                         </div>
@@ -131,9 +139,10 @@ const Feature = () => {
                                 </div>
                                 <h5 className="mb-3">Fully Secured</h5>
                                 <p className="m-0">
-                                    Erat ipsum justo amet duo et elitr dolor,
-                                    est duo duo eos lorem sed diam stet diam sed
-                                    stet lorem.
+                                    Your data is our priority! With top-notch
+                                    security measures in place, you can rest
+                                    assured that your information is safe and
+                                    protected.
                                 </p>
                             </div>
                         </div>
@@ -155,9 +164,9 @@ const Feature = () => {
                                 </div>
                                 <h5 className="mb-3">Cloud Storage</h5>
                                 <p className="m-0">
-                                    Erat ipsum justo amet duo et elitr dolor,
-                                    est duo duo eos lorem sed diam stet diam sed
-                                    stet lorem.
+                                    Access your fitness data anytime, anywhere.
+                                    Our secure cloud storage means you can sync
+                                    your progress across all your devices.
                                 </p>
                             </div>
                         </div>
@@ -179,9 +188,10 @@ const Feature = () => {
                                 </div>
                                 <h5 className="mb-3">Fully Responsive</h5>
                                 <p className="m-0">
-                                    Erat ipsum justo amet duo et elitr dolor,
-                                    est duo duo eos lorem sed diam stet diam sed
-                                    stet lorem.
+                                    FitApp adapts seamlessly to any screen size,
+                                    providing a smooth and intuitive user
+                                    experience whether you're at home or on the
+                                    go.
                                 </p>
                             </div>
                         </div>
@@ -210,29 +220,32 @@ const Feature = () => {
                                 Fitness App
                             </h1>
                             <p className="mb-4">
-                                Diam dolor diam ipsum et tempor sit. Aliqu diam
-                                amet diam et eos labore. Clita erat ipsum et
-                                lorem et sit, sed stet no labore lorem sit clita
-                                duo justo eirmod magna dolore erat amet
+                                Our Fit App features an intuitive design that
+                                makes it incredibly easy to navigate, ensuring
+                                users of all levels can enjoy a seamless
+                                experience.
                             </p>
                             <p>
                                 <i className="fa fa-check text-primary-gradient me-3" />
-                                Diam dolor diam ipsum et tempor sit
+                                A visually appealing design that keeps your
+                                focus on your goals without distractions.
                             </p>
                             <p>
                                 <i className="fa fa-check text-primary-gradient me-3" />
-                                Aliqu diam amet diam et eos labore
+                                Quickly view your progress, workouts, and health
+                                stats in one convenient place.
                             </p>
                             <p className="mb-4">
                                 <i className="fa fa-check text-primary-gradient me-3" />
-                                Clita erat ipsum et lorem et sit
+                                Easily find workout routines, tips, and
+                                resources to stay motivated and informed.
                             </p>
-                            <a
-                                href="https://www.free-css.com/free-css-templates"
+                            <Link
+                                to={"/about"}
                                 className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3"
                             >
                                 Read More
-                            </a>
+                            </Link>
                         </div>
                         <div
                             className="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp"
@@ -305,7 +318,7 @@ const Feature = () => {
                                 animationName: "fadeInUp",
                             }}
                         >
-                            <div className="position-relative bg-light rounded pt-5 pb-4 px-4">
+                            <div className="steps-card position-relative bg-light rounded pt-5 pb-4 px-4">
                                 <div
                                     className="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
                                     style={{ width: 100, height: 100 }}
@@ -314,9 +327,10 @@ const Feature = () => {
                                 </div>
                                 <h5 className="mt-4 mb-3">Install the App</h5>
                                 <p className="mb-0">
-                                    Tempor erat elitr rebum clita dolor diam
-                                    ipsum sit diam amet diam eos erat ipsum et
-                                    lorem et sit sed stet
+                                    Get started on your fitness journey by
+                                    downloading our Fit App. It's quick and easy
+                                    to install, so you can begin your
+                                    transformation right away!
                                 </p>
                             </div>
                         </div>
@@ -329,7 +343,7 @@ const Feature = () => {
                                 animationName: "fadeInUp",
                             }}
                         >
-                            <div className="position-relative bg-light rounded pt-5 pb-4 px-4">
+                            <div className="steps-card position-relative bg-light rounded pt-5 pb-4 px-4">
                                 <div
                                     className="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
                                     style={{ width: 100, height: 100 }}
@@ -340,9 +354,10 @@ const Feature = () => {
                                     Setup Your Profile
                                 </h5>
                                 <p className="mb-0">
-                                    Tempor erat elitr rebum clita dolor diam
-                                    ipsum sit diam amet diam eos erat ipsum et
-                                    lorem et sit sed stet
+                                    Personalize your experience by setting up
+                                    your profile. Input your fitness goals,
+                                    preferences, and current stats to receive
+                                    tailored workout plans and recommendations
                                 </p>
                             </div>
                         </div>
@@ -355,7 +370,7 @@ const Feature = () => {
                                 animationName: "fadeInUp",
                             }}
                         >
-                            <div className="position-relative bg-light rounded pt-5 pb-4 px-4">
+                            <div className="steps-card position-relative bg-light rounded pt-5 pb-4 px-4">
                                 <div
                                     className="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
                                     style={{ width: 100, height: 100 }}
@@ -366,9 +381,11 @@ const Feature = () => {
                                     Enjoy The Features
                                 </h5>
                                 <p className="mb-0">
-                                    Tempor erat elitr rebum clita dolor diam
-                                    ipsum sit diam amet diam eos erat ipsum et
-                                    lorem et sit sed stet
+                                    Dive into a world of fitness with our app's
+                                    incredible features. From guided workouts
+                                    and nutrition tracking to progress
+                                    monitoring, everything you need to succeed
+                                    is at your fingertips!
                                 </p>
                             </div>
                         </div>
@@ -406,13 +423,15 @@ const Feature = () => {
                                 Download
                             </h5>
                             <h1 className="mb-4">
-                                Download The Latest Version Of Our App
+                                Get the Latest Version of Our App
                             </h1>
                             <p className="mb-4">
-                                Diam dolor diam ipsum et tempor sit. Aliqu diam
-                                amet diam et eos labore. Clita erat ipsum et
-                                lorem et sit, sed stet no labore lorem sit clita
-                                duo justo eirmod magna dolore erat amet
+                                Stay up to date with the latest features and
+                                improvements by downloading the newest version
+                                of our Fit App. Enjoy an enhanced experience
+                                with bug fixes, performance boosts, and exciting
+                                new features designed to help you achieve your
+                                fitness goals.
                             </p>
                             <div className="row g-4">
                                 <div
@@ -424,10 +443,9 @@ const Feature = () => {
                                         animationName: "fadeIn",
                                     }}
                                 >
-                                    <a
-                                        href="https://www.free-css.com/free-css-templates"
-                                        className="d-flex bg-primary-gradient rounded py-3 px-4"
-                                    >
+                                    <Link
+                                    to={"/features"}
+                                        className="d-flex bg-primary-gradient rounded py-3 px-4">
                                         <i className="fab fa-apple fa-3x text-white flex-shrink-0" />
                                         <div className="ms-3">
                                             <p className="text-white mb-0">
@@ -437,7 +455,7 @@ const Feature = () => {
                                                 App Store
                                             </h5>
                                         </div>
-                                    </a>
+                                        </Link>
                                 </div>
                                 <div
                                     className="col-sm-6 wow fadeIn"
@@ -448,8 +466,8 @@ const Feature = () => {
                                         animationName: "fadeIn",
                                     }}
                                 >
-                                    <a
-                                        href="https://www.free-css.com/free-css-templates"
+                                    <Link
+                                        to={"/features"}
                                         className="d-flex bg-secondary-gradient rounded py-3 px-4"
                                     >
                                         <i className="fab fa-android fa-3x text-white flex-shrink-0" />
@@ -461,7 +479,7 @@ const Feature = () => {
                                                 Play Store
                                             </h5>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -49,13 +49,13 @@ function Footer() {
                 <Link className="btn btn-link" to={'/contact'}>
                   Contact Us
                 </Link>
-                <Link className="btn btn-link" to={'/privacy'}>
+                <Link className="btn btn-link" to={'/'}>
                   Privacy Policy
                 </Link>
-                <Link className="btn btn-link" to={'/terms'}>
+                <Link className="btn btn-link" to={'/'}>
                   Terms &amp; Condition
                 </Link>
-                <Link className="btn btn-link" to={"/career"}>
+                <Link className="btn btn-link" to={"/"}>
                   Career
                 </Link>
               </div>
@@ -67,21 +67,20 @@ function Footer() {
                 <Link className="btn btn-link" to={'/contact'}>
                   Contact Us
                 </Link>
-                <Link className="btn btn-link" to={'/privacy'}>
+                <Link className="btn btn-link" to={'/'}>
                   Privacy Policy
                 </Link>
-                <Link className="btn btn-link" to={"/privacy"}>
+                <Link className="btn btn-link" to={"/"}>
                   Terms &amp; Condition
                 </Link>
-                <Link className="btn btn-link" to={'/career'}>
+                <Link className="btn btn-link" to={'/'}>
                   Career
                 </Link>
               </div>
               <div className="col-md-6 col-lg-3">
                 <h4 className="text-white mb-4">Newsletter</h4>
                 <p>
-                  Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi.
-                  Curabitur facilisis ornare velit non vulpu
+                  you can send your email here 
                 </p>
                 <div className="position-relative w-100 mt-3">
                   <input
@@ -110,10 +109,10 @@ function Footer() {
                   </Link>
                   , All Right Reserved.
                   {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
-                  Designed By{" "}
-                  <a className="border-bottom" href="https://htmlcodex.com">
+                  
+                  {/* <a className="border-bottom" href="https://htmlcodex.com">
                     HTML Codex
-                  </a>
+                  </a> */}
                 </div>
                 <div className="col-md-6 text-center text-md-end">
                   <div className="footer-menu">

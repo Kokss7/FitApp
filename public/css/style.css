@@ -7,7 +7,7 @@
 }
 
 
-/*** Spinner ***/
+/* ** Spinner **
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -19,7 +19,7 @@
     transition: opacity .5s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
-}
+} */
 
 
 /*** Heading ***/
@@ -258,7 +258,6 @@ h6,
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
     padding: 16rem 0 0 0;
     background:
         url(../img/bg-circle.png),
@@ -285,7 +284,7 @@ h6,
 }
 
 .feature-item:hover {
-    margin-top: -15px;
+    transform: translateY(-15px);
     box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
 }
 
@@ -300,6 +299,9 @@ h6,
     font-weight: 500;
     color: var(--dark);
     background: #FFFFFF;
+}
+#pricing1{
+    background-color: #FFFFFF;
 }
 
 .pricing .nav-item:first-child .nav-link {
@@ -384,7 +386,8 @@ h6,
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item .testimonial-item * {
-    transition: .5s;
+    transition: .1s;
+    
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
@@ -397,32 +400,35 @@ h6,
 }
 
 .testimonial-carousel .owl-nav {
-    margin-top: 30px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
 }
 
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
-    margin: 0 12px;
+    margin:12px 15px;
     width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    color: #FFFFFF !important;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary)) !important;
     border-radius: 60px;
-    font-size: 18px;
+    font-size: 50px;
     transition: .5s;
+    
 }
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
-    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary)) !important;
 }
 
-
+#contact1{
+    background-color: #FFFFFF !important;
+}
 /*** Footer ***/
 .footer {
     margin-top: 6rem;
